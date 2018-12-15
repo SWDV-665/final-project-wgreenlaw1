@@ -18,8 +18,8 @@ export class InputDialogServiceProvider {
 
   showPrompt(item?, index?) {
     const prompt = this.alertCtrl.create({
-      title: item ? 'Edit Item' : 'Add Item',
-      message: item ? "Please edit item..." : "Please enter item...",
+      title: item ? 'Edit Item' : 'Add New Bill',
+      message: item ? "Please edit the details below." : "Please enter the details below.",
       inputs: [
         {
           name: 'bill',
