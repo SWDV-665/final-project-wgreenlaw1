@@ -1,0 +1,8 @@
+{
+  "name": "Bill Reminder",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "id": "66550d54"
+}
